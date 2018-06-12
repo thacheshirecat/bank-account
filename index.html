@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>WHAT MONEY U GOT?</title>
+  </head>
+  <div class="container">
+    <h1>THIS THE BANK</h1>
+
+    <div id="new-account-div">
+      <div class="row new-account-well">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <div class="well">
+            <h3>New Account Set Up</h3>
+            <form id="new-account-form">
+              <div class="form-group">
+                <label for="user-name">Your Name</label>
+                <input type="text" class="form-control" id="user-name">
+              </div>
+              <div class="form-group">
+                <label for="initial-deposit">Initial Deposit</label>
+                <input type="text" class="form-control" id="initial-deposit">
+              </div>
+              <button type="submit" class="btn btn-info" id="new-account-submit">Create New Account</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="account-info">
+      <div class="row deposit-withdraw">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <div class="well">
+            <h3>Welcome, <span id="user"></span>, Manage Funds Here</h3>
+            <form id="new-account-form">
+              <div class="form-group">
+                <label for="user-withdraw">Withdraw</label>
+                <input type="text" class="form-control" id="user-withdraw">
+              </div>
+              <div class="form-group">
+                <label for="user-deposit">Deposit</label>
+                <input type="text" class="form-control" id="user-deposit">
+              </div>
+              <button type="submit" class="btn btn-success" id="new-account-submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="current-balance">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6">
+        <div class="well">
+          <h2>Current Balance</h2>
+          <p>$<span id="user-balance"></span></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</html>

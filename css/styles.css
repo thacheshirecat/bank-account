@@ -1,0 +1,20 @@
+input, label
+{
+    display:block;
+}
+
+h1
+{
+  text-align: center;
+}
+
+#current-balance
+{
+  text-align: center;
+  display: none;
+}
+
+#account-info
+{
+  display: none;
+}
